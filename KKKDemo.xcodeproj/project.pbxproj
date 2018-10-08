@@ -15,7 +15,6 @@
 		0E177EEC216B8DCA002E5EB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E177EEB216B8DCA002E5EB5 /* main.m */; };
 		0E177EF6216B8DCB002E5EB5 /* KKKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E177EF5216B8DCB002E5EB5 /* KKKDemoTests.m */; };
 		0E177F01216B8DCB002E5EB5 /* KKKDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E177F00216B8DCB002E5EB5 /* KKKDemoUITests.m */; };
-		0E177F13216B8E6C002E5EB5 /* BYPhoneNumTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E177F11216B8E6C002E5EB5 /* BYPhoneNumTF.m */; };
 		0E177F19216BDEB2002E5EB5 /* BYPhoneNumTF.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E177F18216BDEB1002E5EB5 /* BYPhoneNumTF.m */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +52,6 @@
 		0E177EFC216B8DCB002E5EB5 /* KKKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E177F00216B8DCB002E5EB5 /* KKKDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKKDemoUITests.m; sourceTree = "<group>"; };
 		0E177F02216B8DCB002E5EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E177F11216B8E6C002E5EB5 /* BYPhoneNumTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYPhoneNumTF.m; sourceTree = "<group>"; };
-		0E177F12216B8E6C002E5EB5 /* BYPhoneNumTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYPhoneNumTF.h; sourceTree = "<group>"; };
 		0E177F17216BDEB1002E5EB5 /* BYPhoneNumTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYPhoneNumTF.h; sourceTree = "<group>"; };
 		0E177F18216BDEB1002E5EB5 /* BYPhoneNumTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYPhoneNumTF.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +84,6 @@
 		0E177ED0216B8DC9002E5EB5 = {
 			isa = PBXGroup;
 			children = (
-				0E177F0E216B8E15002E5EB5 /* KKK */,
 				0E177EDB216B8DC9002E5EB5 /* KKKDemo */,
 				0E177EF4216B8DCB002E5EB5 /* KKKDemoTests */,
 				0E177EFF216B8DCB002E5EB5 /* KKKDemoUITests */,
@@ -140,15 +136,6 @@
 				0E177F02216B8DCB002E5EB5 /* Info.plist */,
 			);
 			path = KKKDemoUITests;
-			sourceTree = "<group>";
-		};
-		0E177F0E216B8E15002E5EB5 /* KKK */ = {
-			isa = PBXGroup;
-			children = (
-				0E177F12216B8E6C002E5EB5 /* BYPhoneNumTF.h */,
-				0E177F11216B8E6C002E5EB5 /* BYPhoneNumTF.m */,
-			);
-			path = KKK;
 			sourceTree = "<group>";
 		};
 		0E177F0F216B8E2D002E5EB5 /* Category */ = {
@@ -304,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E177F13216B8E6C002E5EB5 /* BYPhoneNumTF.m in Sources */,
 				0E177EE1216B8DC9002E5EB5 /* ViewController.m in Sources */,
 				0E177EEC216B8DCA002E5EB5 /* main.m in Sources */,
 				0E177EDE216B8DC9002E5EB5 /* AppDelegate.m in Sources */,
