@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    手机号码格式
                    DESC
 
-  s.homepage     = "http://EXAMPLE/KKK"
+  s.homepage     = "https://github.com/lisazff/KKK"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:lisazff/KKK.git", :tag => "1.0.1" }
+  s.source       = { :git => "https://github.com/lisazff/KKK.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
